@@ -1,0 +1,26 @@
+{
+    "name": "ceoproject/php8",
+    "description": "projeto de PHP 8",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "sistema\\": "sistema/"
+        },
+        "files":[
+            "sistema/configuracao.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alisson Pereira",
+            "email": "alissonfernandes2224@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "^3.0"
+    }
+}
